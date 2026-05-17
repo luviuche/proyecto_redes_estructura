@@ -1,0 +1,48 @@
+# Variables de entorno (¡NUNCA subir la clave API!)
+.env
+.env.local
+
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code (por si alguien del grupo lo usa)
+.vscode/
+
+# Jupyter notebooks (si se llegan a usar)
+.ipynb_checkpoints/
+
+# Pruebas y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Outputs generados (opcional: descomenta si NO quieres subirlos)
+# outputs/*.png
+# outputs/*.txt
