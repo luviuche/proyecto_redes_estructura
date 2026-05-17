@@ -120,7 +120,9 @@ el modelo".
 - [x] visualizador.py — grafo por generaciones (networkx + matplotlib, backend Agg) con roles estructurales coloreados → outputs/grafo_red.png — verificado
 - [x] agente_ia.py — agente híbrido: capa determinista (reglas/plantillas) + capa LLM (Claude Haiku 4.5, configurable) con modo fallback — verificado en ambos modos
 - [x] main.py — orquestador (JSON→validación→análisis→PNG→agente→reporte.txt), CLI con --datos/--pregunta/--modelo — verificado de extremo a extremo
-- [ ] tests básicos
+- [x] tests básicos — pytest: test_modelo.py + test_analizador.py + test_agente.py (41 tests, fallback sin API) — todos pasan
+
+**Proyecto completo: los 9 ítems del checklist están terminados y verificados.**
 
 ## Notas para Claude Code
 
