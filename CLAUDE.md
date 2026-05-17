@@ -112,10 +112,10 @@ el modelo".
 ## Estado actual
 
 [Actualizar a medida que avanza]
-- [ ] Estructura de carpetas creada
-- [ ] requirements.txt con dependencias
-- [ ] Caso de prueba (data/proyecto_software.json) — proyecto de desarrollo de app web
-- [ ] modelo.py — clase Red con validaciones
+- [x] Estructura de carpetas creada
+- [x] requirements.txt con dependencias
+- [x] Caso de prueba (data/proyecto_software.json) — app web, 15 actividades (A–O)
+- [x] modelo.py — clase Red con validaciones (DAG, aciclicidad, conectividad, fuente/sumidero) — verificado con el caso de prueba
 - [ ] analizador.py — análisis estructural
 - [ ] visualizador.py — generación del grafo
 - [ ] agente_ia.py — agente híbrido
