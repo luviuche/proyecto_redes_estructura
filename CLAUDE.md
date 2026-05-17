@@ -119,7 +119,7 @@ el modelo".
 - [x] analizador.py — orden topológico, caminos f→s, centralidad σ(v), V*, cuellos de botella, puntos de articulación, clasificación y generaciones — verificado (DP vs. enumeración coinciden)
 - [x] visualizador.py — grafo por generaciones (networkx + matplotlib, backend Agg) con roles estructurales coloreados → outputs/grafo_red.png — verificado
 - [x] agente_ia.py — agente híbrido: capa determinista (reglas/plantillas) + capa LLM (Claude Haiku 4.5, configurable) con modo fallback — verificado en ambos modos
-- [ ] main.py — orquestador
+- [x] main.py — orquestador (JSON→validación→análisis→PNG→agente→reporte.txt), CLI con --datos/--pregunta/--modelo — verificado de extremo a extremo
 - [ ] tests básicos
 
 ## Notas para Claude Code
