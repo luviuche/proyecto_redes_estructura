@@ -117,7 +117,7 @@ el modelo".
 - [x] Caso de prueba (data/proyecto_software.json) — app web, 15 actividades (A–O)
 - [x] modelo.py — clase Red con validaciones (DAG, aciclicidad, conectividad, fuente/sumidero) — verificado con el caso de prueba
 - [x] analizador.py — orden topológico, caminos f→s, centralidad σ(v), V*, cuellos de botella, puntos de articulación, clasificación y generaciones — verificado (DP vs. enumeración coinciden)
-- [ ] visualizador.py — generación del grafo
+- [x] visualizador.py — grafo por generaciones (networkx + matplotlib, backend Agg) con roles estructurales coloreados → outputs/grafo_red.png — verificado
 - [ ] agente_ia.py — agente híbrido
 - [ ] main.py — orquestador
 - [ ] tests básicos
