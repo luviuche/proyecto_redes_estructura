@@ -118,7 +118,7 @@ el modelo".
 - [x] modelo.py — clase Red con validaciones (DAG, aciclicidad, conectividad, fuente/sumidero) — verificado con el caso de prueba
 - [x] analizador.py — orden topológico, caminos f→s, centralidad σ(v), V*, cuellos de botella, puntos de articulación, clasificación y generaciones — verificado (DP vs. enumeración coinciden)
 - [x] visualizador.py — grafo por generaciones (networkx + matplotlib, backend Agg) con roles estructurales coloreados → outputs/grafo_red.png — verificado
-- [ ] agente_ia.py — agente híbrido
+- [x] agente_ia.py — agente híbrido: capa determinista (reglas/plantillas) + capa LLM (Claude Haiku 4.5, configurable) con modo fallback — verificado en ambos modos
 - [ ] main.py — orquestador
 - [ ] tests básicos
 
