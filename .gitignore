@@ -43,6 +43,7 @@ desktop.ini
 # Logs
 *.log
 
-# Outputs generados (opcional: descomenta si NO quieres subirlos)
-# outputs/*.png
-# outputs/*.txt
+# Outputs generados: son reproducibles ejecutando main.py, no se versionan.
+# (La carpeta outputs/ se conserva por outputs/.gitkeep.)
+outputs/*.png
+outputs/*.txt
